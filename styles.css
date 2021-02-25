@@ -1,0 +1,605 @@
+@font-face {
+    font-family: 'Signifier';
+    src: url('fonts/signifier/Signifier-Thin.woff2') format('woff2'),
+        url('fonts/signifier/Signifier-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+html {
+    
+}
+
+body {
+    width: 1250px;
+    margin: auto;   
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #d4e7fa;
+}
+
+a:link{
+    color: #d4e7fa;
+}
+
+::selection {
+    background: white;
+}
+
+#color1 {
+    background-color: #e0bf8b;
+}
+
+#color2{
+    background-color: #deb38e;
+}
+
+#color3 {
+    background-color: #c99b73;
+}
+
+#color4{
+    background-color: #bd8066;
+}
+#color5 {
+    background-color: #b35c5b;
+}
+
+#color6{
+    background-color: #a14f5c;
+}
+
+#color7 {
+    background-color: #96455f;
+}
+
+#color8{
+    background-color: #8a3e56;
+}
+#color9 {
+    background-color: #75305b;
+}
+
+#color10{
+    background-color: #492961;
+}
+
+#color11{
+    background-color: #3e2154;
+}
+
+#color12{
+    background-color: #321945;
+}
+#color13{
+    background-color: #2a1945;
+}
+
+#color14{
+    background-color: #201945;
+}
+
+#color15{
+    background-color: #1a133b;
+}
+
+#color16{
+    background-color: #13183b;
+}
+#color17{
+    background-color: #0e1230;
+}
+#color18{
+    background-color: #0a0e26;
+}
+
+#color19{
+    background-color: #060a1f;
+}
+
+#color20{
+    background-color: #030617;
+}
+
+#color21{
+    background-color: #000000;
+}
+
+@media only screen and (min-width: 0px){
+
+    p {
+        font-family: 'Signifier';
+        font-size: 30px;
+        line-height: 35px;
+        width: 300px;
+        position: relative;
+        margin: 10px;
+   
+    }
+   
+    #index{
+        background-color: #e0bf8b;
+        color: #e0bf8b;
+        display: none;
+    }
+
+    #altindex {
+        background-color: #e0bf8b;
+        color: #e0bf8b;
+        display: block;
+
+    }
+
+    #p2{
+        background-color: #deb38e;
+        color: #deb38e;
+        display: none;
+    }
+
+    #alt2{
+        background-color: #deb38e;
+        color: #deb38e;
+        display: block;
+    }
+
+    #p3{
+        background-color: #c99b73;
+        color: #c99b73;
+        display: none;
+    }
+
+    #alt3{
+        background-color: #c99b73;
+        color: #c99b73;
+        display: block;
+    }
+    #p4{
+        background-color:##bd8066;
+        color: ##bd8066;
+        display: none;
+    }
+    #alt4{
+        background-color:##bd8066;
+        color: ##bd8066;
+        display: block;
+    }
+
+    #p5{
+        background-color: #b35c5b;
+        color: #b35c5b;
+        display: none;
+    }
+    #alt5{
+        background-color: #b35c5b;
+        color: #b35c5b;
+        display: block;
+    }
+    #p6{
+        background-color: #a14f5c;
+        color: #a14f5c;
+        display: none;
+    }
+    #alt6{
+        background-color: #a14f5c;
+        color: #a14f5c;
+        display: block;
+    }
+
+    #p7{
+        background-color: #96455f;
+        color: #96455f;
+        display: none;
+    }
+    #alt7{
+        background-color: #96455f;
+        color: #96455f;
+        display: block;
+    }
+    #p8{
+        background-color: #8a3e56;
+        color: #8a3e56;
+        display: none;
+    }
+    #alt8{
+        background-color: #8a3e56;
+        color: #8a3e56;
+        display: block;
+    }
+
+    #p9{
+        background-color: #75305b;
+        color: #75305b;
+        display: none;
+    }
+    #alt9{
+        background-color: #75305b;
+        color: #75305b;
+        display: block;
+    }
+    #p10{
+        background-color: #492961;
+        color: #492961;
+        display: none;
+    }
+    #alt10{
+        background-color: #492961;
+        color: #492961;
+        display: block;
+    }
+
+    #p11{
+        background-color: #3e2154;
+        color: #3e2154;
+        display: none;
+    }
+    #alt11{
+        background-color: #3e2154;
+        color: #3e2154;
+        display: block;
+    }
+
+    #p12{
+        background-color: #321945;
+        color: #321945;
+        display: none;
+    }
+
+    #alt12{
+        background-color: #321945;
+        color: #321945;
+        display:block;
+    }
+
+    #p13{
+        background-color: #2a1945;
+        color: #2a1945;
+        display: none;
+    }
+    #alt13{
+        background-color: #2a1945;
+        color: #2a1945;
+        display: block;
+    }
+    #p14{
+        background-color: #201945;
+        color: #201945;
+        display: none;
+    }
+    #alt14{
+        background-color: #201945;
+        color: #201945;
+        display: block;
+    }
+
+    #p15{
+        background-color: #1a133b;
+        color: #1a133b;
+        display: none;
+    }
+    #alt15{
+        background-color: #1a133b;
+        color: #1a133b;
+        display: block;
+    }
+    #p16{
+        background-color: #13183b;
+        color: #13183b;
+        display: none;
+    }
+    #alt16{
+        background-color: #13183b;
+        color: #13183b;
+        display: block;
+    }
+
+    #p17{
+        background-color: #0e1230;
+        color: #0e1230;
+        display: none;
+    }
+    #alt17{
+        background-color: #0e1230;
+        color: #0e1230;
+        display: block;
+    }
+    #p18{
+        background-color: #0a0e26;
+        color: #0a0e26;
+        display: none;
+    }
+    #alt18{
+        background-color: #0a0e26;
+        color: #0a0e26;
+        display: block;
+    }
+    #p19{
+        background-color: #060a1f;
+        color: #060a1f;
+        display: none;
+    }
+    #alt19{
+        background-color: #060a1f;
+        color: #060a1f;
+        display: block;
+    }
+
+    #p20{
+        background-color: #030617;
+        color: #030617;
+        display: none;
+    }
+    #alt20{
+        background-color: #030617;
+        color: #030617;
+        display: block;
+    }
+    #p21{
+        background-color: #000000;
+        color: #000000;
+        display: none;
+    }
+    #alt21{
+        background-color: #000000;
+        color: #000000;
+        display: block;
+    }
+
+
+
+
+
+
+}
+
+@media only screen and (min-width: 480px){
+
+    p {
+        font-family: 'Signifier';
+        font-size: 35px;
+        position: relative;
+        width: 1200px;
+        margin: 10px;
+        line-height: 40px;
+    }
+    
+
+
+    #index{
+        background-color: #e0bf8b;
+        color: #e0bf8b;
+        display:block;
+    }
+
+
+    #altindex{
+        background-color: #e0bf8b;
+        color: #e0bf8b;
+        display:none;
+    }
+
+    #p2{
+        background-color: #deb38e;
+        color: #deb38e;
+        display:block;
+    }
+
+    #alt2{
+        background-color: #deb38e;
+        color: #deb38e;
+        display: none;
+    }
+
+    #p3{
+        background-color: #c99b73;
+        color: #c99b73;
+        display:block;
+    }
+
+    #alt3{
+        background-color: #c99b73;
+        color: #c99b73;
+        display: none;
+    }
+    #p4{
+        background-color:##bd8066;
+        color: #bd8066;
+        display:block;
+    }
+    #alt4{
+        background-color:##bd8066;
+        color: #bd8066;
+        display: none;
+    }
+
+    #p5{
+        background-color: #b35c5b;
+        color: #b35c5b;
+        display:block;
+    }
+    #alt5{
+        background-color: #b35c5b;
+        color: #b35c5b;
+        display: none;
+    }
+    #p6{
+        background-color: #a14f5c;
+        color: #a14f5c;
+        display:block;
+    }
+    #alt6{
+        background-color: #a14f5c;
+        color: #a14f5c;
+        display: none;
+    }
+
+    #p7{
+        background-color: #96455f;
+        color: #96455f;
+        display:block;
+    }
+    #alt7{
+        background-color: #96455f;
+        color: #96455f;
+        display: none;
+    }
+    #p8{
+        background-color: #8a3e56;
+        color: #8a3e56;
+        display:block;
+    }
+    #alt8{
+        background-color: #8a3e56;
+        color: #8a3e56;
+        display: none;
+    }
+
+    #p9{
+        background-color: #75305b;
+        color: #75305b;
+        display:block;
+    }
+    #alt9{
+        background-color: #75305b;
+        color: #75305b;
+        display: none;
+    }
+    #p10{
+        background-color: #492961;
+        color: #492961;
+        display:block;
+    }
+    #alt10{
+        background-color: #492961;
+        color: #492961;
+        display: none;
+    }
+
+    #p11{
+        background-color: #3e2154;
+        color: #3e2154;
+        display:block;
+    }
+    #alt11{
+        background-color: #745096;
+        color: #745096;
+        display: none;
+    }
+
+    #p12{
+        background-color: #321945;
+        color: #321945;
+        display:block;
+    }
+
+    #alt12{
+        background-color: #321945;
+        color: #321945;
+        display:none;
+    }
+
+    #p13{
+        background-color: #2a1945;
+        color: #2a1945;
+        display:block;
+    }
+    #alt13{
+        background-color: #2a1945;
+        color: #2a1945;
+        display: none;
+    }
+    #p14{
+        background-color: #201945;
+        color: #201945;
+        display:block;
+    }
+    #alt14{
+        background-color: #201945;
+        color: #201945;
+        display: none;
+    }
+
+    #p15{
+        background-color: #1a133b;
+        color: #1a133b;
+        display:block;
+    }
+    #alt15{
+        background-color: #1a133b;
+        color: #1a133b;
+        display: none;
+    }
+    #p16{
+        background-color: #13183b;
+        color: #13183b;
+        display:block;
+    }
+    #alt16{
+        background-color: #13183b;
+        color: #13183b;
+        display: none;
+    }
+
+    #p17{
+        background-color: #0e1230;
+        color: #0e1230;
+        display:block;
+    }
+    #alt17{
+        background-color: #0e1230;
+        color: #0e1230;
+        display: none;
+    }
+    #p18{
+        background-color: #0a0e26;
+        color: #0a0e26;
+        display:block;
+    }
+    #alt18{
+        background-color: #0a0e26;
+        color: #0a0e26;
+        display: none;
+    }
+    #p19{
+        background-color: #060a1f;
+        color: #060a1f;
+        display:block;
+    }
+    #alt19{
+        background-color: #060a1f;
+        color: #060a1f;
+        display: none;
+    }
+
+    #p20{
+        background-color: #030617;
+        color: #030617;
+        display:block;
+    }
+    #alt20{
+        background-color: #030617;
+        color: #030617;
+        display: none;
+    }
+    #p21{
+        background-color: #000000;
+        color: #000000;
+        display:block;
+    }
+    #alt21{
+        background-color: #000000;
+        color: #000000;
+        display: none;
+    }
+
+
+
+
+}

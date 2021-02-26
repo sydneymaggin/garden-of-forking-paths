@@ -49,6 +49,7 @@ a:link{
 #color4{
     background-color: #bd8066;
 }
+
 #color5 {
     background-color: #b35c5b;
 }
@@ -119,7 +120,7 @@ a:link{
         font-family: 'Signifier';
         font-size: 30px;
         line-height: 35px;
-        width: 300px;
+        max-width: 300px;
         position: relative;
         margin: 10px;
    
@@ -166,9 +167,10 @@ a:link{
         color: ##bd8066;
         display: none;
     }
+    
     #alt4{
         background-color:##bd8066;
-        color: ##bd8066;
+        color: #bd8066;
         display: block;
     }
 

@@ -8,9 +8,6 @@
 }
 
 
-html {
-    
-}
 
 body {
     width: 1250px;
@@ -163,13 +160,13 @@ a:link{
         display: block;
     }
     #p4{
-        background-color:##bd8066;
-        color: ##bd8066;
+        background-color:#bd8066;
+        color: #bd8066;
         display: none;
     }
     
     #alt4{
-        background-color:##bd8066;
+        background-color:#bd8066;
         color: #bd8066;
         display: block;
     }
@@ -354,12 +351,12 @@ a:link{
         display: block;
     }
 
-
-
-
-
-
 }
+
+
+
+
+
 
 @media only screen and (min-width: 480px){
 
@@ -367,8 +364,8 @@ a:link{
         font-family: 'Signifier';
         font-size: 35px;
         position: relative;
-        width: 1200px;
-        margin: 10px;
+        max-width: 1200px;
+        margin: 50px;
         line-height: 40px;
     }
     
@@ -411,12 +408,12 @@ a:link{
         display: none;
     }
     #p4{
-        background-color:##bd8066;
+        background-color:#bd8066;
         color: #bd8066;
         display:block;
     }
     #alt4{
-        background-color:##bd8066;
+        background-color:#bd8066;
         color: #bd8066;
         display: none;
     }
